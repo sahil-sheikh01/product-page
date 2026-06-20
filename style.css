@@ -175,6 +175,7 @@ form button{
 
     .gallery {
         border-radius: 10px 10px 0 0;
+        box-shadow: 5px 0 10px rgba(0, 0, 0, 0.5);
     }
 
     .details {

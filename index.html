@@ -1,0 +1,81 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="product">
+            <div class="gallery">
+                <img src="images/front.png" id="product-img">
+                <div class="controls">
+                    <span class="btn active" data-img="images/front.png"></span>
+                    <span class="btn" data-img="images/back.png"></span>
+                    <span class="btn" data-img="images/side.png"></span>
+                </div>
+            </div>
+            <div class="details">
+                <h1>Casual T-Shirt</h1>
+                <h2>$15.00</h2>
+                <h3>30% OFF</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis saepe quod quia, provident dolores sit!</p>
+                <form>
+                    <div class="size-select">
+                        <p>Size</p>
+                        <label for="small">
+                            <input type="radio" name="size" id="small">
+                            <span>S</span>
+                        </label>
+                        <label for="medium">
+                            <input type="radio" name="size" id="medium">
+                            <span>M</span>
+                        </label>
+                        <label for="large">
+                            <input type="radio" name="size" id="large">
+                            <span>L</span>
+                        </label>
+                        <label for="x-large">
+                            <input type="radio" name="size" id="x-large">
+                            <span>XL</span>
+                        </label>
+                        <label for="xx-large">
+                            <input type="radio" name="size" id="xx-large">
+                            <span>XXL</span>
+                        </label>
+                    </div>
+                    <div class="color-select">
+                        <p>Color</p>
+                        <label for="red">
+                            <input type="radio" name="color" id="red">
+                            <span class="red-color"></span>
+                        </label>
+                        <label for="green">
+                            <input type="radio" name="color" id="green">
+                            <span class="green-color"></span>
+                        </label>
+                        <label for="blue">
+                            <input type="radio" name="color" id="blue">
+                            <span class="blue-color"></span>
+                        </label>
+                        <label for="pink">
+                            <input type="radio" name="color" id="pink">
+                            <span class="pink-color"></span>
+                        </label>
+                    </div>
+                    <div class="quantity-select">
+                        <p>Quantity</p>
+                        <input type="number" value="1">
+                    </div>
+                    <button>Add to Cart</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
